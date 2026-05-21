@@ -19,9 +19,21 @@ n1 = Newspaper("The Washington Post")
 n2 = Newspaper("The New York Times")
 
 # TODO: use type() to inspect the object type
+print(f'type(b1) -> {type(b1)}')
+print(f'type(b2) -> {type(b2)}')
+print(f'type(n1) -> {type(n1)}')
+print(f'type(n2) -> {type(n2)}')
 
 
 # TODO: compare two types together
-
+print(f'type(b1) == type(b2) -> {type(b1) == type(b2)}')
+print(f'type(b1) == type(b2) -> {type(b1) == type(n1)}')
 
 # TODO: use isinstance to compare a specific instance to a known type
+print(f'isinstance(b1, Book) -> {isinstance(b1, Book)}')
+print(f'isinstance(n1, Newspaper) -> {isinstance(n1, Newspaper)}')
+print(f'isinstance(n2, Book) -> {isinstance(n2, Book)}')
+print(f'isinstance(n1, object) -> {isinstance(n1, object)}')
+
+
+
